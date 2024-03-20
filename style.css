@@ -23,9 +23,39 @@ main {
     width: 300px;
     height: 450px;   
 }
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px; 
+}
+.main3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px; 
+}
 h2{
     text-align: center;
     margin-bottom: 70px;
+}
+.h2-2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.h2-3{
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 form {
@@ -60,11 +90,19 @@ button:hover{
     background-color: #820AD1;
     color: white;
 }
-.links{
+.links-1{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: #820AD1;
-    margin: 15px;
+    margin: 15px 0px 0px 45px;
+}
+.links-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #820AD1;
+    margin: 15px 0px 0px 40px;
 }
