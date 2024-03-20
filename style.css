@@ -1,5 +1,5 @@
 body{
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -13,7 +13,10 @@ header {
     padding: 10px;
 }
 main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 40px;
     border-radius: 10px;
@@ -25,9 +28,13 @@ h2{
     margin-bottom: 70px;
 }
 
-form{
-
+form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     margin-bottom: 20px;
+    width: 250px;
+    flex-direction: column;
 }
 input[type=text], input[type=password]{
     width: calc(100% - 20px);
@@ -53,12 +60,11 @@ button:hover{
     background-color: #820AD1;
     color: white;
 }
-a{
+.links{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: #820AD1;
     margin: 15px;
-    
 }
